@@ -1,0 +1,32 @@
+.right {
+
+  height: 1em; /* added to remove sizing bug on homepage jumbotron image */
+  margin-right: 1em;
+
+}
+
+.loginBtn {
+  margin: 0.6em 0 0 0.6em;
+}
+
+.loginBtn:hover {
+  background-image: url(../../assets/img/btn_google_signin_dark_focus_web.png);
+}
+
+.loginBtn:active {
+  background-image: url(../../assets/img/btn_google_signin_dark_pressed_web.png);
+}
+
+.siteLogo {
+  height: 4.2em;
+
+  margin: 0.1em 0 0 2em;
+}
+
+.nav-right {
+  margin-right: 2em;
+}
+
+.nav-wrapper {
+  border-bottom: 1px solid #B3BFB8;
+}

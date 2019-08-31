@@ -1,0 +1,23 @@
+.checkout {
+  align-content: center;
+  width: 90%;
+  margin-top: 1em;
+  font-size: 20px;
+}
+.checkoutBtn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.checkout-form-submit-button {
+  width: 12em;
+}
+
+#bookNowBtn {
+  margin-top: 2.4em;
+}
+
+.checkout-form-no-user-message {
+  font-size: 1.5em;
+}

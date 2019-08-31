@@ -1,0 +1,40 @@
+/* button {  //commented out because it was coloring the button on the tools detail page as well - needs more specific styling
+  background-color: red;
+} */
+
+.card-action {
+  display: flex;
+  justify-content: space-between
+}
+.user-tool-card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* .toolCard {
+  width: 90%;
+} */
+
+.card {
+  box-shadow: none;
+  border: 1px solid #B3BFB8;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.card-action {
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.card-action:last-child {
+  border-radius: 5px;
+}
+
+.user-tool-card-button {
+  margin: 0 auto;
+  width: 8em;
+}

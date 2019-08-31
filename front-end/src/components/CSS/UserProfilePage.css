@@ -1,0 +1,61 @@
+.col {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F0F7F4;
+  overflow: auto;
+}
+
+.manage {
+  height: 100px;
+}
+
+.userImg {
+  margin-top: 2em;
+  height: 200px;
+  width: 200px;
+}
+
+.user-profile-page-wrapper {
+  background-color: #F0F7F4;
+  height: 92vh;
+  width: 100%;
+  margin: 0;
+
+  display: flex;
+  overflow: auto;
+}
+
+#tool-scroll {
+  overflow: auto;
+}
+
+#user-profile-page-user-card {
+  border: 1px solid #B3BFB8;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  margin: 2em auto 0;
+  width: 75%;
+}
+
+.user-profile-page-delete-profile-button {
+  width: 12em;
+}
+
+.user-profile-page-user-name {
+  margin: 1em 0 0.2em;
+}
+
+.user-profile-page-add-tool-button {
+  width: 12em;
+  margin-top: 2.4em;
+}
+
+.user-profile-page-column-header {
+  margin: 2em auto 0.8em;
+  text-align: center;
+  width: 90%;
+  border: 1px solid #B3BFB8;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+}
